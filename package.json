@@ -1,0 +1,52 @@
+{
+  "name": "vitepress-markdown-timeline",
+  "version": "1.0.0",
+  "description": "vitepress-markdown-timeline",
+  "main": "dist/vitepress-markdown-timeline.cjs.js",
+  "module": "dist/vitepress-markdown-timeline.es.js",
+  "types": "types/index.d.ts",
+  "sideEffects": false,
+  "homepage": "https://github.com/HanochMa/vitepress-markdown-timeline#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HanochMa/vitepress-markdown-timeline"
+  },
+  "keywords": [
+    "markdown",
+    "vitepress",
+    "markdonw-it",
+    "markdonw-it-plugin"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist/[^.]*",
+    "types/[^.]*",
+    "docs/[^.]*",
+    "doc/[^.]*"
+  ],
+  "author": {
+    "name": "HanochMa"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/index.js",
+    "pretest": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.15.0",
+    "package-tls": "^1.2.2",
+    "path": "^0.12.7",
+    "rollup": "^2.35.1",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3"
+  }
+}

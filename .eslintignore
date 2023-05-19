@@ -1,0 +1,6 @@
+# ESLint 的忽略配置文件
+# http://eslint.cn/docs/user-guide/configuring
+
+build/
+dist/
+dev/

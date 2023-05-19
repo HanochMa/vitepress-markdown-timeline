@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext",
+      "ScriptHost"
+    ],
+    "declaration": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule":true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "dist",
+    "dev"
+  ]
+}
