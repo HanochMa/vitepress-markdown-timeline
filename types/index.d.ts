@@ -1,2 +1,2 @@
-declare const _default: (a: number) => number;
-export default _default;
+import { timelinePlugin } from "./container";
+export default timelinePlugin;

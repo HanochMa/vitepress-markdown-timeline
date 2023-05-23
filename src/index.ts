@@ -1,3 +1,2 @@
-export default (a: number) => {
-    return a + 12
-}
+import { timelinePlugin } from "./container";
+export default timelinePlugin;

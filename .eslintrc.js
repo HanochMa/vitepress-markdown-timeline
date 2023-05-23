@@ -31,6 +31,6 @@ module.exports = {
         // 无用变量
         "no-unused-vars": "off",
         // typescript 的 无用变量
-        "@typescript-eslint/no-unused-vars": "error",
+        "@typescript-eslint/no-unused-vars": "warn",
     }
 };
