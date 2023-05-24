@@ -15,7 +15,9 @@
     "markdown",
     "vitepress",
     "markdonw-it",
-    "markdonw-it-plugin"
+    "markdonw-it-plugin",
+    "timeline",
+    "vitepress-plugin"
   ],
   "license": "MIT",
   "files": [

@@ -25,7 +25,7 @@ const createContainer = (
           // opening tag
           const title = md.renderInline(info)
           return (
-            "<div class='timeline-dot'><span>" + title + defaultTime + "</span>\n"
+            "<div class='timeline-dot'><span class='timeline-dot-title'>" + title + "</span>\n"
           );
         } else {
           // closing tag
