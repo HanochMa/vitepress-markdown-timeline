@@ -1,6 +1,6 @@
 # vitepress-markdown-timeline
 
-在 vitepress 中用 markdown 渲染时间线样式
+提供markdown时间线语法，在 vitepress 中用 markdown 渲染**时间线（时间轴）**样式。
 
 ## 安装
 
@@ -17,7 +17,7 @@ $ pnpm install vitepress-markdown-timeline
 
 ## 引入
 
-先注册`vitepress-markdown-timeline`提供的 markdown 解析插件
+在`.vitepress/config.ts`中先注册 markdown 解析插件
 
 ```ts
 // .vitepress/config.ts or .vitepress/config.js
@@ -38,8 +38,10 @@ export default {
 import Theme from 'vitepress/theme'
 import './styles/vars.scss'
 import './styles/style.scss'
-// 添加下面这行代码，引入时间线样式
+
+// 只需添加以下一行代码，引入时间线样式
 import 'vitepress-markdown-timeline/dist/theme.css' 
+
 export default {
   ...Theme,
   enhanceApp(ctx) {
@@ -84,6 +86,3 @@ export default {
   //...
 }
 ```
-
-
-

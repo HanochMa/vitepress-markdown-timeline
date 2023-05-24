@@ -1,7 +1,7 @@
 {
   "name": "vitepress-markdown-timeline",
   "version": "1.0.0",
-  "description": "vitepress-markdown-timeline",
+  "description": "在vitepress添加时间线（时间轴）渲染能力",
   "main": "dist/cjs/index.cjs.js",
   "module": "dist/es/index.es.js",
   "types": "types/index.d.ts",
@@ -17,7 +17,9 @@
     "markdonw-it",
     "markdonw-it-plugin",
     "timeline",
-    "vitepress-plugin"
+    "vitepress-plugin",
+    "时间线",
+    "时间轴"
   ],
   "license": "MIT",
   "files": [
