@@ -1,6 +1,6 @@
 {
   "name": "vitepress-markdown-timeline",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "在vitepress添加时间线（时间轴）渲染能力",
   "main": "dist/cjs/index.cjs.js",
   "module": "dist/es/index.es.js",
