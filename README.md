@@ -1,6 +1,8 @@
-# vitepress-markdown-timeline
+# :rainbow: vitepress-markdown-timeline 
 
-提供markdown时间线语法，在 vitepress 中用 markdown 渲染**时间线（时间轴）**样式。
+提供 markdown **时间线语法**，在 vitepress 中使用 markdown 渲染时间线（时间轴）样式。
+
+![image-20230525102713136](https://raw.githubusercontent.com/HanochMa/PictureBed/main/blogs/vitepress-markdown-timeline-example.png)
 
 ## 安装
 
@@ -32,47 +34,51 @@ export default {
   },
 };
 ```
+
 在`.vitepress/theme/index.ts`中引入时间线样式
+
 ```ts
 // .vitepress/theme/index.ts or .vitepress/theme/index.js
-import Theme from 'vitepress/theme'
-import './styles/vars.scss'
-import './styles/style.scss'
+import Theme from "vitepress/theme";
+import "./styles/vars.scss";
+import "./styles/style.scss";
 
 // 只需添加以下一行代码，引入时间线样式
-import 'vitepress-markdown-timeline/dist/theme.css' 
+import "vitepress-markdown-timeline/dist/theme/index.css";
 
 export default {
   ...Theme,
   enhanceApp(ctx) {
-    Theme.enhanceApp(ctx)
-  }
-}
+    Theme.enhanceApp(ctx);
+  },
+};
 ```
 
 ## 使用
-在markdown文件中以`::: timeline 时间`开头，`:::`结尾，中间插入内容即可
+
+在 markdown 文件中以`::: timeline 时间`开头，`:::`结尾，中间插入内容即可（内容中可使用任何markdown语法）
 
 输入
 
 ```js
 ::: timeline 2023-05-24
-// do some thing1
-// do some thing2
+- **do some thing1**
+- do some thing2
 :::
 
 ::: timeline 2023-05-23
-// do some thing3
-// do some thing4
+do some thing3
+do some thing4
 :::
 ```
+
 渲染以下结果
 
-![image-20230524161630659](https://raw.githubusercontent.com/HanochMa/PictureBed/main/blogs/vitepress-markdown-timeline1.png)
+![image-20230525103438927](https://raw.githubusercontent.com/HanochMa/PictureBed/main/blogs/vitepress-markdown-timeline-example2.png)
 
 ## Demo
 
-[在线demo](https://hanochma.github.io/daily/2023-04)
+[在线 demo](https://hanochma.github.io/daily/2023-04)
 
 ## Q&A
 
@@ -82,7 +88,7 @@ export default {
 
 ```css
 :root {
-  --vp-c-brand: #b575e3; // 修改这个即可
   //...
+  --vp-c-brand: #b575e3; // 修改vitepress提供的主题颜色变量即可
 }
 ```
