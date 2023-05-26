@@ -1,4 +1,4 @@
-# :rainbow: vitepress-markdown-timeline [![npm](https://img.shields.io/npm/v/vitepress-markdown-timeline.svg)](https://www.npmjs.com/package/vitepress-markdown-timeline)
+# :rainbow: vitepress-markdown-timeline [![npm](https://img.shields.io/npm/v/vitepress-markdown-timeline.svg)](https://www.npmjs.com/package/vitepress-markdown-timeline) [![build status](https://github.com/vuejs/core/actions/workflows/ci.yml/badge.svg)](https://github.com/HanochMa/vitepress-markdown-timeline/blob/main/.travis.yml)
 
 提供 markdown **时间线语法**，在 vitepress 中使用 markdown 渲染时间线（时间轴）样式。
 
