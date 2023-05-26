@@ -1,4 +1,4 @@
-# :rainbow: vitepress-markdown-timeline 
+# :rainbow: vitepress-markdown-timeline [![npm](https://img.shields.io/npm/v/vitepress-markdown-timeline.svg)](https://www.npmjs.com/package/vitepress-markdown-timeline)
 
 提供 markdown **时间线语法**，在 vitepress 中使用 markdown 渲染时间线（时间轴）样式。
 
@@ -92,3 +92,6 @@ do some thing4
   --vp-c-brand: #b575e3; // 修改vitepress提供的主题颜色变量即可
 }
 ```
+
+### 引入样式文件`vitepress-markdown-timeline/dist/theme/index.css`报错，提示不存在？
+升级至`1.2.0`或以上版本
